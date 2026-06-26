@@ -2,8 +2,8 @@ name: Codzienny zrzut interpelacji
 
 on:
   schedule:
-    # 05:00 UTC = ~07:00 czasu polskiego (CEST latem, 06:00 CET zimą)
-    - cron: "0 5 * * *"
+    # 03:00 UTC = 05:00 czasu polskiego latem (CEST); zimą (CET) = 04:00 PL
+    - cron: "0 3 * * *"
   workflow_dispatch: {}
 
 permissions:
