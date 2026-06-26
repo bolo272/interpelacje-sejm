@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalacja zależności
-        run: pip install requests
+        run: pip install requests pypdf
 
       - name: Pobierz interpelacje
         run: python pobierz.py

@@ -9,8 +9,13 @@ i zapisuje czytelny zrzut JSON do katalogu `dane/`.
 - `dane/raport-{RRRR-MM-DD}.json` — zrzut z danego dnia (archiwum).
 
 Każdy zrzut zawiera listę interpelacji, a dla każdej: numer, tytuł, adresata,
-autora odpowiedzi, datę, link do treści odpowiedzi oraz linki do PDF-ów.
-Pole `tresc_tylko_w_pdf: true` oznacza, że treść jest wyłącznie w załączniku PDF.
+autora odpowiedzi, datę, link do treści odpowiedzi, linki do PDF-ów oraz
+**samą treść odpowiedzi** (`tresc`).
+
+- `tresc_zrodlo`: `html` (treść z body HTML), `pdf` (wyłuskana z załącznika PDF)
+  albo `pdf-bez-tekstu` (PDF bez warstwy tekstowej, np. skan — wtedy `tresc`
+  jest pusta, zostaje link do PDF).
+- `tresc_tylko_w_pdf: true` — treść była wyłącznie w PDF.
 
 ## Jak odpalić ręcznie
 
@@ -21,7 +26,7 @@ i zacommituje zmiany w `dane/`.
 **Lokalnie:**
 
 ```bash
-pip install requests
+pip install requests pypdf
 python pobierz.py
 ```
 
