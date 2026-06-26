@@ -1,0 +1,38 @@
+name: Codzienny zrzut interpelacji
+
+on:
+  schedule:
+    # 05:00 UTC = ~07:00 czasu polskiego (CEST latem, 06:00 CET zimą)
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  zrzut:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalacja zależności
+        run: pip install requests
+
+      - name: Pobierz interpelacje
+        run: python pobierz.py
+
+      - name: Commit zrzutu
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dane/
+          if git diff --staged --quiet; then
+            echo "Brak zmian w dane/ — nic do commitowania."
+          else
+            git commit -m "Zrzut interpelacji $(date -u +%Y-%m-%d)"
+            git push
+          fi

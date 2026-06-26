@@ -1,0 +1,265 @@
+{
+  "pobrano": "2026-06-26T11:11:26",
+  "modified_since": "2026-06-25T00:00",
+  "liczba_interpelacji": 15,
+  "interpelacje": [
+    {
+      "numer": 17233,
+      "tytul": "Interpelacja w sprawie ostatnich zgłoszeń dotyczących możliwego zagrożenia związanego z niebezpiecznymi materiałami",
+      "adresat": [
+        "minister spraw wewnętrznych i administracji"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Czesław Mroczek",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": false,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17233/reply/DVDHA7/body",
+      "pdfy": []
+    },
+    {
+      "numer": 17373,
+      "tytul": "Interpelacja w sprawie planu transformacji energetycznej państwa, ograniczenia emisji dwutlenku węgla oraz finansowania rozwoju energetyki jądrowej i odnawialnych źródeł energii",
+      "adresat": [
+        "minister energii",
+        "minister klimatu i środowiska"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Urszula Zielińska",
+      "data_odpowiedzi": "2026-06-23",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17373/reply/DVDHAA/body",
+      "pdfy": [
+        {
+          "nazwa": "i17373-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHAA/i17373-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 17707,
+      "tytul": "Interpelacja w sprawie wynagradzania nauczycieli za godziny ponadwymiarowe w dniach egzaminów ósmoklasisty i egzaminów maturalnych",
+      "adresat": [
+        "minister edukacji"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Henryk Kiepura",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": false,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17707/reply/DVDHAD/body",
+      "pdfy": []
+    },
+    {
+      "numer": 17173,
+      "tytul": "Interpelacja w sprawie udzielenia pomocy finansowej samorządom lokalnym rejonu olkuskiego w związku z występowaniem niebezpiecznych zapadlisk oraz odtwarzania się zwierciadła wód podziemnych",
+      "adresat": [
+        "minister energii"
+      ],
+      "autor_odpowiedzi": "Podsekretarz stanu Marian Zmarzły",
+      "data_odpowiedzi": "2026-06-23",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17173/reply/DVDHA6/body",
+      "pdfy": [
+        {
+          "nazwa": "i17173-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA6/i17173-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 17409,
+      "tytul": "Interpelacja w sprawie opóźnień w uruchomieniu Centrum Rozwoju i Produkcji Leków Onkologicznych w Tarchomińskich Zakładach Farmaceutycznych \"Polfa\" SA",
+      "adresat": [
+        "minister aktywów państwowych"
+      ],
+      "autor_odpowiedzi": "Minister Wojciech Balczun",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17409/reply/DVDHAB/body",
+      "pdfy": [
+        {
+          "nazwa": "i17409-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHAB/i17409-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 17323,
+      "tytul": "Interpelacja w sprawie awarii systemu sprzedaży biletów online PKP Intercity",
+      "adresat": [
+        "minister infrastruktury"
+      ],
+      "autor_odpowiedzi": "Podsekretarz stanu Piotr Malepszak",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17323/reply/DVDHA8/body",
+      "pdfy": [
+        {
+          "nazwa": "i17323-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA8/i17323-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 17547,
+      "tytul": "Interpelacja w sprawie planowanych zmian dotyczących prac domowych oraz ich wpływu na obciążenie nauczycieli",
+      "adresat": [
+        "minister edukacji"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Katarzyna Lubnauer",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": false,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17547/reply/DVDHAC/body",
+      "pdfy": []
+    },
+    {
+      "numer": 17324,
+      "tytul": "Interpelacja w sprawie krytycznej przepustowości linii kolejowej nr 8 na odcinku Warka-Radom oraz konieczności dostosowania infrastruktury kolejowej na potrzeby uruchomienia kolei aglomeracyjnej dla Radomia i regionu radomskiego",
+      "adresat": [
+        "minister infrastruktury"
+      ],
+      "autor_odpowiedzi": "Podsekretarz stanu Piotr Malepszak",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:49",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17324/reply/DVDHA9/body",
+      "pdfy": [
+        {
+          "nazwa": "i17324-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA9/i17324-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 17021,
+      "tytul": "Interpelacja w sprawie rozwoju piłki nożnej kobiet w Polsce, ze szczególnym uwzględnieniem sytuacji klubów szkolących młodzież",
+      "adresat": [
+        "minister sportu i turystyki"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Piotr Borys",
+      "data_odpowiedzi": "2026-06-23",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17021/reply/DVDHA5/body",
+      "pdfy": [
+        {
+          "nazwa": "i17021-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA5/i17021-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 16827,
+      "tytul": "Interpelacja w sprawie kontynuacji programu wsparcia samorządów w zakresie likwidacji miejsc, gdzie składowane są odpady niebezpieczne, oraz systemowego ograniczenia działania tzw. mafii śmieciowych",
+      "adresat": [
+        "minister klimatu i środowiska",
+        "minister spraw wewnętrznych i administracji",
+        "minister sprawiedliwości"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Arkadiusz Myrcha",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16827/reply/DVDHA2/body",
+      "pdfy": [
+        {
+          "nazwa": "i16827-o2.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA2/i16827-o2.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 15979,
+      "tytul": "Interpelacja w sprawie wpływu dynamicznego rozwoju lądowych farm wiatrowych oraz wielkopowierzchniowych instalacji fotowoltaicznych na bezpieczeństwo operacji w cywilnym ruchu lotniczym",
+      "adresat": [
+        "minister klimatu i środowiska"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Urszula Zielińska",
+      "data_odpowiedzi": "2026-06-23",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/15979/reply/DVDH9X/body",
+      "pdfy": [
+        {
+          "nazwa": "i15979-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDH9X/i15979-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 16965,
+      "tytul": "Interpelacja w sprawie przewlekłości postępowania nad przejęciem majątku Grupy Azoty Polyolefins SA przez Orlen SA",
+      "adresat": [
+        "minister sprawiedliwości"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Arkadiusz Myrcha",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16965/reply/DVDHA3/body",
+      "pdfy": [
+        {
+          "nazwa": "i16965-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA3/i16965-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 16980,
+      "tytul": "Interpelacja w sprawie postępowań prokuratorskich dotyczących Banku Spółdzielczego w Białobrzegach",
+      "adresat": [
+        "minister sprawiedliwości"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Arkadiusz Myrcha",
+      "data_odpowiedzi": "2026-06-24",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16980/reply/DVDHA4/body",
+      "pdfy": [
+        {
+          "nazwa": "i16980-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDHA4/i16980-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 16475,
+      "tytul": "Interpelacja w sprawie nagród wypłaconych w Ministerstwie Sportu i Turystyki w latach 2024-2026",
+      "adresat": [
+        "minister sportu i turystyki"
+      ],
+      "autor_odpowiedzi": "Sekretarz stanu Piotr Borys",
+      "data_odpowiedzi": "2026-06-23",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16475/reply/DVDH9Z/body",
+      "pdfy": [
+        {
+          "nazwa": "i16475-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDH9Z/i16475-o1.pdf"
+        }
+      ]
+    },
+    {
+      "numer": 16352,
+      "tytul": "Interpelacja w sprawie bezpieczeństwa energetycznego kraju",
+      "adresat": [
+        "minister energii"
+      ],
+      "autor_odpowiedzi": "Podsekretarz stanu Konrad Wojnarowski",
+      "data_odpowiedzi": "2026-06-19",
+      "ostatnia_modyfikacja": "2026-06-25T15:00:48",
+      "tresc_tylko_w_pdf": true,
+      "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16352/reply/DVDH9Y/body",
+      "pdfy": [
+        {
+          "nazwa": "i16352-o1.pdf",
+          "url": "https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDVDH9Y/i16352-o1.pdf"
+        }
+      ]
+    }
+  ]
+}
