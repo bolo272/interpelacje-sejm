@@ -12,10 +12,11 @@ Każdy zrzut zawiera listę interpelacji, a dla każdej: numer, tytuł, adresata
 autora odpowiedzi, datę, link do treści odpowiedzi, linki do PDF-ów oraz
 **samą treść odpowiedzi** (`tresc`).
 
-- `tresc_zrodlo`: `html` (treść z body HTML), `pdf` (wyłuskana z załącznika PDF)
-  albo `pdf-bez-tekstu` (PDF bez warstwy tekstowej, np. skan — wtedy `tresc`
-  jest pusta, zostaje link do PDF).
+- `tresc_zrodlo`: `html` (treść z body HTML), `pdf` (wyłuskana z załącznika PDF),
+  `pdf-bez-tekstu` (PDF bez warstwy tekstowej, np. skan — `tresc` pusta, zostaje
+  link do PDF) albo `prolongata` (zawiadomienie o przedłużeniu terminu, bez treści).
 - `tresc_tylko_w_pdf: true` — treść była wyłącznie w PDF.
+- `prolongata: true` — najnowszy wpis to przedłużenie terminu, nie odpowiedź.
 
 ## Jak odpalić ręcznie
 

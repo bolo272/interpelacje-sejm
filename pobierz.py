@@ -90,6 +90,7 @@ def przetworz(item: dict) -> dict | None:
         "data_odpowiedzi": reply.get("receiptDate"),
         "ostatnia_modyfikacja": reply.get("lastModified"),
         "tresc_tylko_w_pdf": bool(reply.get("onlyAttachment")),
+        "prolongata": bool(reply.get("prolongation")),
         "link_tresci": link_body(reply),
         "pdfy": pdfy,
     }
@@ -98,9 +99,16 @@ def przetworz(item: dict) -> dict | None:
 def dodaj_tresc(rec: dict, sess: requests.Session) -> None:
     """Dopisuje rec['tresc'] i rec['tresc_zrodlo'].
 
-    onlyAttachment -> tekst z PDF; w przeciwnym razie tekst z HTML body.
+    onlyAttachment -> tekst z PDF; brak linku (np. przedłużenie terminu) ->
+    bez treści; w przeciwnym razie tekst z HTML body.
     Pojedynczy błąd nie przerywa całego zrzutu — zapisujemy go w polu.
     """
+    if not rec["tresc_tylko_w_pdf"] and not rec["link_tresci"]:
+        # brak treści do pobrania — najczęściej zawiadomienie o przedłużeniu terminu
+        rec["tresc_zrodlo"] = "prolongata" if rec["prolongata"] else "brak"
+        rec["tresc"] = ""
+        return
+
     if rec["tresc_tylko_w_pdf"]:
         teksty = []
         for pdf in rec["pdfy"]:

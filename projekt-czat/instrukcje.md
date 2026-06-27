@@ -46,6 +46,10 @@ Format:
    - *Treść:* {link_tresci} (oraz link do PDF, jeśli jest w `pdfy`).
 4. Jeśli `tresc_zrodlo` = `pdf-bez-tekstu` (skan bez tekstu) — napisz, że treść jest
    tylko w skanie PDF i podaj link, bez streszczania.
+5. Wpisy z `tresc_zrodlo` = `prolongata` (lub `prolongata: true`) to **nie odpowiedzi
+   merytoryczne, tylko zawiadomienia o przedłużeniu terminu**. Nie streszczaj ich w
+   głównej liście — zbierz je na końcu w jednym akapicie: „Przedłużono termin
+   odpowiedzi: nr … (adresat)". Na wstępie podaj, ile z N wpisów to same przedłużenia.
 
 ## Zasady streszczeń
 
