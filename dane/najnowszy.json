@@ -1,5 +1,5 @@
 {
-  "pobrano": "2026-06-27T11:51:47",
+  "pobrano": "2026-06-27T11:53:00",
   "modified_since": "2026-06-26T00:00",
   "liczba_interpelacji": 40,
   "interpelacje": [
@@ -13,6 +13,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17370/reply/DVEHAD/body",
       "pdfy": [
         {
@@ -34,6 +35,7 @@
       "data_odpowiedzi": "2026-06-26",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/15051/reply/DVEHA2/body",
       "pdfy": [
         {
@@ -54,6 +56,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": false,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17577/reply/DVEHAS/body",
       "pdfy": [],
       "tresc_zrodlo": "html",
@@ -70,6 +73,7 @@
       "data_odpowiedzi": "2026-06-19",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17424/reply/DVEHAG/body",
       "pdfy": [
         {
@@ -90,9 +94,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -105,6 +110,7 @@
       "data_odpowiedzi": "2026-06-22",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17453/reply/DVEHAJ/body",
       "pdfy": [
         {
@@ -125,6 +131,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17185/reply/DVEHAA/body",
       "pdfy": [
         {
@@ -145,6 +152,7 @@
       "data_odpowiedzi": "2026-06-24",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16972/reply/DVEHA7/body",
       "pdfy": [
         {
@@ -165,6 +173,7 @@
       "data_odpowiedzi": "2026-06-24",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17624/reply/DVEHAT/body",
       "pdfy": [
         {
@@ -185,9 +194,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -200,6 +210,7 @@
       "data_odpowiedzi": "2026-06-19",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17474/reply/DVEHAL/body",
       "pdfy": [
         {
@@ -220,9 +231,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -235,9 +247,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -250,6 +263,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16666/reply/DVEHA4/body",
       "pdfy": [
         {
@@ -270,6 +284,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17219/reply/DVEHAB/body",
       "pdfy": [
         {
@@ -290,6 +305,7 @@
       "data_odpowiedzi": "2026-06-19",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17119/reply/DVEHA9/body",
       "pdfy": [
         {
@@ -310,6 +326,7 @@
       "data_odpowiedzi": "2026-06-19",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17457/reply/DVEHAK/body",
       "pdfy": [
         {
@@ -330,9 +347,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -352,6 +370,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16231/reply/DVEHA3/body",
       "pdfy": [
         {
@@ -372,6 +391,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": false,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17451/reply/DVEHAH/body",
       "pdfy": [],
       "tresc_zrodlo": "html",
@@ -387,6 +407,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17528/reply/DVEHAQ/body",
       "pdfy": [
         {
@@ -407,6 +428,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": false,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17749/reply/DVEHAV/body",
       "pdfy": [],
       "tresc_zrodlo": "html",
@@ -422,6 +444,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17496/reply/DVEHAM/body",
       "pdfy": [
         {
@@ -442,6 +465,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17544/reply/DVEHAR/body",
       "pdfy": [
         {
@@ -462,6 +486,7 @@
       "data_odpowiedzi": "2026-06-20",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17514/reply/DVEHAP/body",
       "pdfy": [
         {
@@ -482,6 +507,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16886/reply/DVEHA6/body",
       "pdfy": [
         {
@@ -502,6 +528,7 @@
       "data_odpowiedzi": "2026-06-24",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17399/reply/DVEHAE/body",
       "pdfy": [
         {
@@ -522,6 +549,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": false,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17407/reply/DVEHAF/body",
       "pdfy": [],
       "tresc_zrodlo": "html",
@@ -537,9 +565,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -552,6 +581,7 @@
       "data_odpowiedzi": "2026-06-20",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16871/reply/DVEHA5/body",
       "pdfy": [
         {
@@ -572,6 +602,7 @@
       "data_odpowiedzi": "2026-06-26",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": false,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17741/reply/DVEHAU/body",
       "pdfy": [],
       "tresc_zrodlo": "html",
@@ -587,6 +618,7 @@
       "data_odpowiedzi": "2026-06-24",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17506/reply/DVEHAN/body",
       "pdfy": [
         {
@@ -612,6 +644,7 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-26T15:00:57",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/17309/reply/DVEHAC/body",
       "pdfy": [
         {
@@ -632,9 +665,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -648,6 +682,7 @@
       "data_odpowiedzi": "2026-05-22",
       "ostatnia_modyfikacja": "2026-05-26T22:00:07",
       "tresc_tylko_w_pdf": true,
+      "prolongata": false,
       "link_tresci": "https://api.sejm.gov.pl/sejm/term10/interpellations/16850/reply/DUFJAW/body",
       "pdfy": [
         {
@@ -668,9 +703,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -683,9 +719,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -698,9 +735,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -713,9 +751,10 @@
       "data_odpowiedzi": "2026-06-26",
       "ostatnia_modyfikacja": "2026-06-26T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     },
     {
@@ -728,9 +767,10 @@
       "data_odpowiedzi": "2026-06-25",
       "ostatnia_modyfikacja": "2026-06-25T00:00:00",
       "tresc_tylko_w_pdf": false,
+      "prolongata": true,
       "link_tresci": null,
       "pdfy": [],
-      "tresc_zrodlo": "błąd: Invalid URL 'None': No scheme supplied. Perhaps you meant https://None?",
+      "tresc_zrodlo": "prolongata",
       "tresc": ""
     }
   ]
