@@ -13,35 +13,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Odpytaj API z różnymi parametrami
+      - name: Policz dzisiejszą paczkę
         run: |
           mkdir -p debug
-          q() {
-            local nazwa="$1"; shift
-            local url="$1"
-            echo "=== $nazwa ===" >> debug/wyniki.txt
-            echo "URL: $url" >> debug/wyniki.txt
-            code=$(curl -sS -o /tmp/odp.json -w "%{http_code}" --max-time 60 "$url" || echo "CURL-FAIL")
-            echo "HTTP: $code" >> debug/wyniki.txt
-            if [ -s /tmp/odp.json ]; then
-              n=$(jq 'length' /tmp/odp.json 2>/dev/null || echo "nie-JSON")
-              echo "Liczba elementów: $n" >> debug/wyniki.txt
-              jq -r '.[:5][] | "num=\(.num) lastModified=\(.lastModified) replies=\(.replies|length)"' /tmp/odp.json >> debug/wyniki.txt 2>/dev/null || head -c 500 /tmp/odp.json >> debug/wyniki.txt
-            fi
-            echo >> debug/wyniki.txt
-          }
           B="https://api.sejm.gov.pl/sejm/term10/interpellations"
-          q "najnowsze wg lastModified (bez filtra)" "$B?limit=5&sort_by=-lastModified"
-          q "modifiedSince=2026-07-06T00:00 (jak w skrypcie)" "$B?modifiedSince=2026-07-06T00:00&sort_by=-lastModified&limit=100"
-          q "modifiedSince=2026-07-06T00:00:00 (z sekundami)" "$B?modifiedSince=2026-07-06T00:00:00&sort_by=-lastModified&limit=100"
-          q "modifiedSince=2026-07-01T00:00 (szersze okno)" "$B?modifiedSince=2026-07-01T00:00&sort_by=-lastModified&limit=100"
-          q "modifiedSince=2026-06-29T00:00 (okno 06-30, wtedy było 29 wyników)" "$B?modifiedSince=2026-06-29T00:00&sort_by=-lastModified&limit=100"
-          cat debug/wyniki.txt
+          : > debug/wyniki2.txt
+          for off in 0 500 1000; do
+            curl -sS --max-time 60 "$B?modifiedSince=2026-07-07T00:00&limit=500&offset=$off" -o /tmp/p$off.json
+          done
+          jq -s 'add' /tmp/p0.json /tmp/p500.json /tmp/p1000.json > /tmp/all.json
+          {
+            echo "Zmodyfikowane od 2026-07-07T00:00 (do 1500): $(jq 'length' /tmp/all.json)"
+            echo "…w tym z odpowiedziami (replies>0): $(jq '[.[] | select((.replies|length)>0)] | length' /tmp/all.json)"
+            echo "Rozkład lastModified:"
+            jq -r '.[].lastModified' /tmp/all.json | sort | uniq -c | sort -rn | head
+          } >> debug/wyniki2.txt
+          cat debug/wyniki2.txt
 
       - name: Commit wyników
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add debug/
-          git commit -m "Wyniki diagnostyki API"
+          git commit -m "Wyniki diagnostyki API - runda 2"
           git push
