@@ -1,0 +1,50 @@
+=== najnowsze wg lastModified (bez filtra) ===
+URL: https://api.sejm.gov.pl/sejm/term10/interpellations?limit=5&sort_by=-lastModified
+HTTP: 200
+Liczba elementów: 5
+num=18333 lastModified=2026-07-07T11:07:18 replies=0
+num=16910 lastModified=2026-07-07T11:07:18 replies=3
+num=18317 lastModified=2026-07-07T11:07:18 replies=0
+num=17535 lastModified=2026-07-07T11:07:18 replies=1
+num=17487 lastModified=2026-07-07T11:07:18 replies=1
+
+=== modifiedSince=2026-07-06T00:00 (jak w skrypcie) ===
+URL: https://api.sejm.gov.pl/sejm/term10/interpellations?modifiedSince=2026-07-06T00:00&sort_by=-lastModified&limit=100
+HTTP: 200
+Liczba elementów: 100
+num=18333 lastModified=2026-07-07T11:07:18 replies=0
+num=16910 lastModified=2026-07-07T11:07:18 replies=3
+num=18317 lastModified=2026-07-07T11:07:18 replies=0
+num=17535 lastModified=2026-07-07T11:07:18 replies=1
+num=17487 lastModified=2026-07-07T11:07:18 replies=1
+
+=== modifiedSince=2026-07-06T00:00:00 (z sekundami) ===
+URL: https://api.sejm.gov.pl/sejm/term10/interpellations?modifiedSince=2026-07-06T00:00:00&sort_by=-lastModified&limit=100
+HTTP: 200
+Liczba elementów: 100
+num=18333 lastModified=2026-07-07T11:07:18 replies=0
+num=16910 lastModified=2026-07-07T11:07:18 replies=3
+num=18317 lastModified=2026-07-07T11:07:18 replies=0
+num=17535 lastModified=2026-07-07T11:07:18 replies=1
+num=17487 lastModified=2026-07-07T11:07:18 replies=1
+
+=== modifiedSince=2026-07-01T00:00 (szersze okno) ===
+URL: https://api.sejm.gov.pl/sejm/term10/interpellations?modifiedSince=2026-07-01T00:00&sort_by=-lastModified&limit=100
+HTTP: 200
+Liczba elementów: 100
+num=18333 lastModified=2026-07-07T11:07:18 replies=0
+num=16910 lastModified=2026-07-07T11:07:18 replies=3
+num=18317 lastModified=2026-07-07T11:07:18 replies=0
+num=17535 lastModified=2026-07-07T11:07:18 replies=1
+num=17487 lastModified=2026-07-07T11:07:18 replies=1
+
+=== modifiedSince=2026-06-29T00:00 (okno 06-30, wtedy było 29 wyników) ===
+URL: https://api.sejm.gov.pl/sejm/term10/interpellations?modifiedSince=2026-06-29T00:00&sort_by=-lastModified&limit=100
+HTTP: 200
+Liczba elementów: 100
+num=18333 lastModified=2026-07-07T11:07:18 replies=0
+num=16910 lastModified=2026-07-07T11:07:18 replies=3
+num=18317 lastModified=2026-07-07T11:07:18 replies=0
+num=17535 lastModified=2026-07-07T11:07:18 replies=1
+num=17487 lastModified=2026-07-07T11:07:18 replies=1
+
